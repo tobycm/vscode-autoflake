@@ -12,15 +12,12 @@
   },
   "version": "0.0.3",
   "engines": {
-    "vscode": "^1.52.0"
+    "vscode": "^1.75.0"
   },
   "categories": [
     "Programming Languages",
     "Formatters",
     "Other"
-  ],
-  "activationEvents": [
-    "onCommand:autoflake.removeUnused"
   ],
   "main": "./out/extension.js",
   "contributes": {
@@ -83,7 +80,7 @@
     "lint": "eslint src --ext ts"
   },
   "devDependencies": {
-    "@types/vscode": "^1.52.0",
+    "@types/vscode": "^1.75.0",
     "@types/glob": "^7.1.3",
     "@types/mocha": "^8.0.4",
     "@types/node": "^12.11.7",
